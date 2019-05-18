@@ -25,14 +25,6 @@ The basic pinout of this project.
 | 3V3           | 3V3           |
 | 3V3           | EN            |
 
-| ESP-01        | USB TTL       |
-| ------------- |:-------------:|
-| TX            | RX            |
-| RX            | TX            |
-| GND           | GND           |
-| 3V3           | 3V3           |
-| EN            | 3V3           |
-
 | UNO           | LED           |
 | ------------- |:-------------:|
 | D7            | ANODE (+)     |
