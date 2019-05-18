@@ -56,8 +56,8 @@ GND -------------- GND
 ## FLASH ESP-01 WITH ESPTOOL (Optional)
 
 FIRMWARE ESP-01 :
-AT  V1.6.2
-SDK V2.2.1
+1) AT  V1.6.2
+2) SDK V2.2.1
 
 Flash SDK First > Then Flash AT Afterward
 
