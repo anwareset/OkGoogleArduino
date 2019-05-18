@@ -9,6 +9,9 @@
 * USB TTL Serial (Optional)
 * 5V to 3.3V Logic Converter (Optional)
 
+
+
+
 # PINOUT
 Use the PINOUT FINAL is you done with anything in this project.
 ## PINOUT FINAL
@@ -69,6 +72,9 @@ Use this pinout when you need to interact with AT Command only
 
 Then use Serial Monitor from Arduino IDE to interact with AT
 
+
+
+
 # FLASHING ESP8266 (Optional)
 Use this if your ESP8266 have old or deprecated firmware installed.
 ## FLASH ESP-01 WITH ESPTOOL
@@ -90,6 +96,8 @@ Memory Address :
 | user1.1024.new.2.bin      | 0x01000           |
 | esp_init_data_default.bin | 0xfc000           |
 | blank.bin                 | 0x7e000 & 0xfe000 |
+
+
 
 
 # TROUBLESHOOT
