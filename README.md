@@ -90,6 +90,7 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flas
 ```
 
 Memory Address :
+
 | File                      | Address           |
 | ------------------------- |:-----------------:|
 | boot_v1.2.bin             | 0x00000           |
