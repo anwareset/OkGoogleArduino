@@ -13,50 +13,61 @@
 Use the PINOUT FINAL is you done with anything in this project.
 ## PINOUT FINAL
 The basic pinout of this project.
-```text
-UNO <------------> ESP-01
-D2 (as RX) ------- TX
-D3 (as TX) ------- RX
-3.3V ------------- 3V3
-3.3V ------------- EN
-GND -------------- GND
-```
-```text
-UNO <------------> LED
-D7  -------------- ANODE (+)
-GND -------------- CATODE (-)
-```
-```text
-UNO <------------> RELAY
-D8  -------------- IN
-5V  -------------- VCC
-GND -------------- GND
-```
+
+| UNO           | ESP-01        |
+| ------------- |:-------------:|
+| D2 (as TX)    | RX            |
+| D3 (as RX)    | TX            |
+| GND           | GND           |
+| 3V3           | 3V3           |
+| 3V3           | EN            |
+
+| ESP-01        | USB TTL       |
+| ------------- |:-------------:|
+| TX            | RX            |
+| RX            | TX            |
+| GND           | GND           |
+| 3V3           | 3V3           |
+| EN            | 3V3           |
+
+| UNO           | LED           |
+| ------------- |:-------------:|
+| D7            | ANODE (+)     |
+| GND           | CATHODE (-)   |
+
+| UNO           | RELAY         |
+| ------------- |:-------------:|
+| D8            | IN            |
+| 5V            | VCC           |
+| GND           | GND           |
+
 
 
 ## PINOUT FLASHING ESP-01
 Use this pinout only when you need to flash your ESP-01 Firmware
-```text
-ESP-01 <---------> USB TTL
-TX  -------------- RX
-RX  -------------- TX
-3V3 -------------- 3V3
-EN  -------------- 3V3
-IO2 -------------- GND
-GND -------------- GND
-```
+
+| ESP-01        | USB TTL       |
+| ------------- |:-------------:|
+| TX            | RX            |
+| RX            | TX            |
+| GND           | GND           |
+| IO2           | GND           |
+| 3V3           | 3V3           |
+| EN            | 3V3           |
 
 
 ## PINOUT AT COMMAND MODE ESP-01
 Use this pinout when you need to interact with AT Command only
-```text
-ESP-01 <---------> USB TTL
-TX  -------------- RX
-RX  -------------- TX
-3V3 -------------- 3V3
-EN  -------------- 3V3
-GND -------------- GND
-```
+
+| ESP-01        | USB TTL       |
+| ------------- |:-------------:|
+| TX            | RX            |
+| RX            | TX            |
+| GND           | GND           |
+| 3V3           | 3V3           |
+| EN            | 3V3           |
+
+Then use Serial Monitor from Arduino IDE to interact with AT
 
 # FLASHING ESP8266 (Optional)
 Use this if your ESP8266 have old or deprecated firmware installed.
@@ -73,12 +84,6 @@ esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flas
 ```
 
 Memory Address :
-```text
-boot_v1.2.bin               0x00000
-user1.1024.new.2.bin        0x01000
-esp_init_data_default.bin   0xfc000
-blank.bin                   0x7e000 & 0xfe000
-```
 | File                      | Address           |
 | ------------------------- |:-----------------:|
 | boot_v1.2.bin             | 0x00000           |
