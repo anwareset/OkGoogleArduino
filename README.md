@@ -19,7 +19,7 @@ Control your electronics with an Google Assistant + Arduino UNO + ESP8266
   - [SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)](#set-esp-01-baud-rate-to-9600-via-at-command-recommended)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.jpeg">
+  <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.JPG">
 </p>
 
 
