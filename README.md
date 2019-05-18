@@ -98,8 +98,8 @@ Use this if your ESP8266 have old or deprecated firmware installed.
 ## FLASH ESP-01 WITH ESPTOOL
 
 FIRMWARE ESP-01 :
-1) AT  V1.6.2 from https://www.espressif.com/sites/default/files/ap/ESP8266_AT_Bin_V1.6.2_0.zip
-2) SDK V2.2.1 from https://codeload.github.com/espressif/ESP8266_NONOS_SDK/zip/v2.2.1
+1) [AT  V1.6.2](https://www.espressif.com/sites/default/files/ap/ESP8266_AT_Bin_V1.6.2_0.zip)
+2) [SDK V2.2.1](https://codeload.github.com/espressif/ESP8266_NONOS_SDK/zip/v2.2.1)
 
 Flash SDK First > Then Flash AT Afterward
 
@@ -162,8 +162,8 @@ and accept etc.
 That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
 
 ## Upload Code and Test
-Don't forget to import the Blynk library to your Arduino IDE. You can read https://www.arduino.cc/en/Guide/Libraries#toc4. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
-Use <b>OkGoogleArduino.ino</b> sketch code. Don't forget to edit it.
+1) Don't forget to import the [Blynk Library](https://github.com/blynkkk/blynk-library/releases/) to your Arduino IDE. You can follow [this instructions](http://help.blynk.cc/getting-started-library-auth-token-code-examples/how-to-install-blynk-library-for-arduino) for import the library to your Arduino IDE.
+Use <b>[OkGoogleArduino.ino](https://github.com/anwareset/OkGoogleArduino/blob/master/OkGoogleArduino.ino)</b> sketch code. Don't forget to edit it.
 ```text
 char auth[] = "8f180320xxxxxxxxxc458c50faa";
 char ssid[] = "iPhone 5S";
@@ -175,7 +175,7 @@ char pass[] = ""
 ```
 
 ### Result
-[![MIKHMON OpenWrt Installer](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
+[![OkGoogleArduino](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
 
 
 # TROUBLESHOOT
