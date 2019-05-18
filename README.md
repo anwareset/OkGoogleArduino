@@ -135,6 +135,8 @@ application/json
 and accept etc.
 That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
 
+## Upload Code and Test
+Dont forget to import the Blynk library. You can read https://www.arduino.cc/en/Guide/Libraries#toc4 to your Arduino IDE. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
 
 
 
