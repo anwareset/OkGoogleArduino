@@ -1,11 +1,7 @@
 # Ok Google with Arduino and ESP8266
 Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
-https://camo.githubusercontent.com/cea3f0a53afdd1c7b75e080fed4862f4087fd93d/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a6a3857495a7550594d4b3463646e7548523366426b772e6a706567
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.jpeg">
-</p>
 
 ## Contents
 - [REQUIREMENTS](#requirements)
@@ -22,6 +18,9 @@ https://camo.githubusercontent.com/cea3f0a53afdd1c7b75e080fed4862f4087fd93d/6874
 - [TROUBLESHOOT](#troubleshoot)
  - [SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)](#set-esp-01-baud-rate-to-9600-via-at-command-recommended)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.jpeg">
+</p>
 
 
 
