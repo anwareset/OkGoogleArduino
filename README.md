@@ -6,10 +6,13 @@
 * ESP8266 (ESP-01) WiFi Module
 * Some Jumper Cables
 * Relay SRD-05VDC-SL-C (Optional)
+* USB TTL Serial (Optional)
 * 5V to 3.3V Logic Converter (Optional)
 
 # PINOUT
+Use the PINOUT FINAL is you done with anything in this project.
 ## PINOUT FINAL
+The basic pinout of this project.
 ```text
 UNO <------------> ESP-01
 D2 (as RX) ------- TX
@@ -32,6 +35,7 @@ GND -------------- GND
 
 
 ## PINOUT FLASHING ESP-01
+Use this pinout only when you need to flash your ESP-01 Firmware
 ```text
 ESP-01 <---------> USB TTL
 TX  -------------- RX
@@ -44,6 +48,7 @@ GND -------------- GND
 
 
 ## PINOUT AT COMMAND MODE ESP-01
+Use this pinout when you need to interact with AT Command only
 ```text
 ESP-01 <---------> USB TTL
 TX  -------------- RX
@@ -54,6 +59,7 @@ GND -------------- GND
 ```
 
 # FLASHING ESP8266 (Optional)
+Use this if your ESP8266 have old or deprecated firmware installed.
 ## FLASH ESP-01 WITH ESPTOOL
 
 FIRMWARE ESP-01 :
@@ -65,8 +71,8 @@ Flash SDK First > Then Flash AT Afterward
 ```text
 esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flash_mode dio <MEMORY ADDRESS> <FILE.BIN>
 ```
-Memory Address :
 
+Memory Address :
 ```text
 boot_v1.2.bin               0x00000
 user1.1024.new.2.bin        0x01000
