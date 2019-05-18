@@ -56,8 +56,8 @@ GND -------------- GND
 ## FLASH ESP-01 WITH ESPTOOL (Optional)
 
 FIRMWARE ESP-01 :
-1) AT  V1.6.2
-2) SDK V2.2.1
+1) AT  V1.6.2 from https://www.espressif.com/sites/default/files/ap/ESP8266_AT_Bin_V1.6.2_0.zip
+2) SDK V2.2.1 from https://codeload.github.com/espressif/ESP8266_NONOS_SDK/zip/v2.2.1
 
 Flash SDK First > Then Flash AT Afterward
 
