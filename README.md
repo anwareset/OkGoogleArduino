@@ -93,6 +93,51 @@ Memory Address :
 
 
 
+# HOW TO
+## Setting up Blynk
+1) Follow instruction on http://blynk.cc/getting-started/
+  1) Download and install Blynk App for Android or IOS
+  2) Install Blynk Library for Arduino IDE
+2) Open Blynk App
+  1) Create 'New Project'
+  2) Choose 'Arduino UNO' and 'WiFi' then click 'Create'
+  3) Get the Blynk Auth Token. Note it
+  4) Click on + sign on the top and one Button
+  5) Click on Button and set the pin to 'Digital' and 'D7'. Set pin values to 1 and 0. Set switch to 'Push'
+  6) Create same as step 5 for D8 pin.
+
+
+## Setting up IFTTT
+1) Register IFTTT account
+2) Create Trigger (IF):
+  1) Search Google Assistant
+  2) Select 'Say a phrase with a text ingredient'. Enter everything you need.
+3) Choose Action (THEN):
+  1) Search Webhooks
+  2) Click on 'Make a web Request'
+  3) Set the action
+### URL
+```text
+http://blynk-cloud.com/update/D7
+```
+### Method
+```text
+PUT
+```
+### Content Type
+```text
+application/json
+```
+### Body
+```text
+["1"]
+```
+and accept etc.
+That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
+
+
+
+
 # TROUBLESHOOT
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
 The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
