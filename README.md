@@ -69,7 +69,7 @@ FIRMWARE ESP-01 :
 Flash SDK First > Then Flash AT Afterward
 
 ```text
-esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flash_mode dio <MEMORY ADDRESS> <FILE.BIN>
+esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flash_mode dio <MEMORY ADDRESS 0> <FILE-0.BIN> <MEMORY ADDRESS 1> <FILE-1.BIN> <MEMORY ADDRESS N> <FILE-N.BIN>
 ```
 
 Memory Address :
