@@ -178,8 +178,8 @@ char pass[] = ""
 [![OkGoogleArduino](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
 
 
-# LOGS
-This is the log from Serial Monitor
+### Logs
+This is the log from Serial Monitor if everything is running without any problems.
 ```text
 22:19:06.581 ->     ___  __          __
 22:19:06.581 ->    / _ )/ /_ _____  / /__
