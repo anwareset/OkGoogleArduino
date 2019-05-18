@@ -129,7 +129,7 @@ Memory Address :
 7) Get the Blynk Auth Token. Note it
 8) Click on + sign on the top and one Button
 9) Click on Button and set the pin to 'Digital' and 'D7'. Set pin values to 1 and 0. Set switch to 'Push'
-10) Create same as step 5 for D8 pin.
+10) Create same as step 5 for D8 pin
 
 
 ## Setting up IFTTT
@@ -161,7 +161,7 @@ and accept etc.
 That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
 
 ## Upload Code and Test
-Dont forget to import the Blynk library. You can read https://www.arduino.cc/en/Guide/Libraries#toc4 to your Arduino IDE. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
+Dont forget to import the Blynk library to your Arduino IDE. You can read https://www.arduino.cc/en/Guide/Libraries#toc4. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
 
 
 
