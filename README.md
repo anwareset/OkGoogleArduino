@@ -1,8 +1,11 @@
 # Ok Google with Arduino and ESP8266
 Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
+https://camo.githubusercontent.com/cea3f0a53afdd1c7b75e080fed4862f4087fd93d/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a6a3857495a7550594d4b3463646e7548523366426b772e6a706567
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.jpeg">
+</p>
 
 ## Contents
 - [REQUIREMENTS](#requirements)
@@ -36,7 +39,7 @@ Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
 
 
-# PINOUT
+i# PINOUT
 Use the PINOUT FINAL is you done with anything in this project.
 ## PINOUT FINAL
 The basic pinout of this project.
@@ -163,7 +166,7 @@ That body part decides what you put in D7 pin. Apparenly this will make the led 
 Dont forget to import the Blynk library to your Arduino IDE. You can read https://www.arduino.cc/en/Guide/Libraries#toc4. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
 
 ### Result
-[![MIKHMON OpenWrt Installer](https://cdn-images-1.medium.com/max/1600/1*j8WIZuPYMK4cdnuHR3fBkw.jpeg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
+[![MIKHMON OpenWrt Installer](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
 
 
 # TROUBLESHOOT
