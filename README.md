@@ -178,6 +178,28 @@ char pass[] = ""
 [![OkGoogleArduino](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
 
 
+# LOGS
+This is the log from Serial Monitor
+```text
+22:19:06.581 ->     ___  __          __
+22:19:06.581 ->    / _ )/ /_ _____  / /__
+22:19:06.615 ->   / _  / / // / _ \/  '_/
+22:19:06.648 ->  /____/_/\_, /_//_/_/\_\
+22:19:06.682 ->         /___/ v0.6.1 on Arduino Uno
+22:19:06.715 -> 
+22:19:07.148 -> [598] Connecting to iPhone 5S
+22:19:10.381 -> [3815] AT version:1.6.2.0(Apr 13 2018 11:10:59)
+22:19:10.414 -> SDK version:2.2.1(6ab97e9)
+22:19:10.448 -> compile time:Jun  7 2018 19:34:26
+22:19:10.613 -> Bin version(Wroom 02):1.6.2
+22:19:10.613 -> OK
+22:19:15.681 -> [9121] +CIFSR:STAIP,"192.168.200.30"
+22:19:15.714 -> +CIFSR:STAMAC,"3c:71:bf:38:a9:de"
+22:19:15.777 -> [9131] Connected to WiFi
+22:19:26.315 -> [19739] Ready (ping: 44ms).
+
+```
+
 # TROUBLESHOOT
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
 The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
