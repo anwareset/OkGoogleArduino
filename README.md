@@ -162,7 +162,17 @@ and accept etc.
 That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
 
 ## Upload Code and Test
-Dont forget to import the Blynk library to your Arduino IDE. You can read https://www.arduino.cc/en/Guide/Libraries#toc4. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
+Don't forget to import the Blynk library to your Arduino IDE. You can read https://www.arduino.cc/en/Guide/Libraries#toc4. Then you can follow https://www.arduino.cc/en/main/howto for upload the sketch code to your Arduino UNO.
+Use <b>OkGoogleArduino.ino</b> sketch code. Don't forget to edit it.
+```text
+char auth[] = "8f180320xxxxxxxxxc458c50faa";
+char ssid[] = "iPhone 5S";
+char pass[] = "11211111";
+```
+Edit it with your Blynk auth key, WiFi access point, and password. If your WiFi has no password, then use this.
+```text
+char pass[] = ""
+```
 
 ### Result
 [![MIKHMON OpenWrt Installer](https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/0.jpg)](https://www.youtube.com/watch?v=ebIpf0-m83k "Google Assistant with Arduino UNO and ESP8266")
