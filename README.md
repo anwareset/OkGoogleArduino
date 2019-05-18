@@ -169,7 +169,7 @@ char auth[] = "8f180320xxxxxxxxxc458c50faa";
 char ssid[] = "iPhone 5S";
 char pass[] = "11211111";
 ```
-Edit it with your Blynk auth key, WiFi access point, and password. If your WiFi has no password, then use this.
+Replace it with your Blynk auth key, WiFi access point, and WiFi password. <b>If your WiFi has no password</b>, then use this.
 ```text
 char pass[] = ""
 ```
