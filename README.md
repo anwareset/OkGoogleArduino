@@ -39,7 +39,7 @@ Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
 
 # PINOUT
-Use the PINOUT FINAL is you done with anything in this project.
+Use the <b>PINOUT FINAL</b> if you done with anything in this project.
 ## PINOUT FINAL
 The basic pinout of this project.
 
