@@ -79,11 +79,15 @@ user1.1024.new.2.bin        0x01000
 esp_init_data_default.bin   0xfc000
 blank.bin                   0x7e000 & 0xfe000
 ```
+| boot_v1.2.bin             | 0x00000           |
+| user1.1024.new.2.bin      | 0x01000           |
+| esp_init_data_default.bin | 0xfc000           |
+| blank.bin                 | 0x7e000 & 0xfe000 |
 
 
 # TROUBLESHOOT
-The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
+The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
 ```text
 AT
 AT+UART_DEF=9600,8,1,0,0
