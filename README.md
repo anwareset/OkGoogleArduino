@@ -96,26 +96,26 @@ Memory Address :
 # HOW TO
 ## Setting up Blynk
 1) Follow instruction on http://blynk.cc/getting-started/
-  2) Download and install Blynk App for Android or IOS
-  2) Install Blynk Library for Arduino IDE
-2) Open Blynk App
-  1) Create 'New Project'
-  2) Choose 'Arduino UNO' and 'WiFi' then click 'Create'
-  3) Get the Blynk Auth Token. Note it
-  4) Click on + sign on the top and one Button
-  5) Click on Button and set the pin to 'Digital' and 'D7'. Set pin values to 1 and 0. Set switch to 'Push'
-  6) Create same as step 5 for D8 pin.
+2) Download and install Blynk App for Android or IOS
+3) Install Blynk Library for Arduino IDE
+4) Open Blynk App
+5) Create 'New Project'
+6) Choose 'Arduino UNO' and 'WiFi' then click 'Create'
+7) Get the Blynk Auth Token. Note it
+8) Click on + sign on the top and one Button
+9) Click on Button and set the pin to 'Digital' and 'D7'. Set pin values to 1 and 0. Set switch to 'Push'
+10) Create same as step 5 for D8 pin.
 
 
 ## Setting up IFTTT
 1) Register IFTTT account
-2) Create Trigger (IF):
-  1) Search Google Assistant
-  2) Select 'Say a phrase with a text ingredient'. Enter everything you need.
-3) Choose Action (THEN):
-  1) Search Webhooks
-  2) Click on 'Make a web Request'
-  3) Set the action
+2) Create Trigger (IF)
+3) Search Google Assistant
+4) Select 'Say a phrase with a text ingredient'. Enter everything you need.
+5) Choose Action (THEN)
+6) Search Webhooks
+7) Click on 'Make a web Request'
+8) Set the action
 ### URL
 ```text
 http://blynk-cloud.com/update/D7
