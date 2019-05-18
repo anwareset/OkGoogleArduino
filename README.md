@@ -10,15 +10,15 @@ Control your electronics with an Google Assistant + Arduino UNO + ESP8266
   - [PINOUT FINAL](#pinout-final)
   - [PINOUT FLASHING ESP-01](#pinout-flashing-esp-01)
   - [PINOUT AT COMMAND MODE ESP-01](#pinout-at-command-mode-esp-01)
-- [FLASHING ESP8266 (Optional)](#https://github.com/anwareset/OkGoogleArduino#flashing-esp8266-optional)
-  - [FLASH ESP-01 WITH ESPTOOL](#https://github.com/anwareset/OkGoogleArduino#flash-esp-01-with-esptool)  
+- [FLASHING ESP8266 (Optional)](#flashing-esp8266-optional)
+  - [FLASH ESP-01 WITH ESPTOOL](#flash-esp-01-with-esptool)  
 - [INSTALLATION](#installation)
-  - [Setting up Blynk](#https://github.com/anwareset/OkGoogleArduino#setting-up-blynk)
-  - [Setting up IFTTT](#https://github.com/anwareset/OkGoogleArduino#setting-up-ifttt)
+  - [Setting up Blynk](#setting-up-blynk)
+  - [Setting up IFTTT](#setting-up-ifttt)
   - [Update ESP8266 over the Webinterface](#update-esp8266-over-the-webinterface)
-  - [Upload Code and Test](#https://github.com/anwareset/OkGoogleArduino#upload-code-and-test)
+  - [Upload Code and Test](#upload-code-and-test)
 - [TROUBLESHOOT](#troubleshoot)
- - [SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)](#https://github.com/anwareset/OkGoogleArduino#set-esp-01-baud-rate-to-9600-via-at-command-recommended)
+ - [SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)](#set-esp-01-baud-rate-to-9600-via-at-command-recommended)
 
 
 
