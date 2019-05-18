@@ -96,7 +96,7 @@ Memory Address :
 # HOW TO
 ## Setting up Blynk
 1) Follow instruction on http://blynk.cc/getting-started/
-  1) Download and install Blynk App for Android or IOS
+  2) Download and install Blynk App for Android or IOS
   2) Install Blynk Library for Arduino IDE
 2) Open Blynk App
   1) Create 'New Project'
