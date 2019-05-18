@@ -60,7 +60,7 @@ FIRMWARE ESP-01 :
 2) SDK V2.2.1
 
 Flash SDK First > Then Flash AT Afterward
-
+Memory Address :
 ```text
 esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flash_mode dio <MEMORY ADDRESS> <FILE.BIN>
 ```
