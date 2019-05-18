@@ -1,4 +1,4 @@
-## Requirements:
+# REQUIREMENTS:
 * Android phone Marsmallow or higher or Apple phone (for Google Assistant)
 * IFTTT Account
 * Blynk App Account
@@ -8,6 +8,7 @@
 * Relay SRD-05VDC-SL-C (Optional)
 * 5V to 3.3V Logic Converter (Optional)
 
+# PINOUT
 ## PINOUT FINAL
 ```text
 UNO <------------> ESP-01
@@ -52,8 +53,8 @@ EN  -------------- 3V3
 GND -------------- GND
 ```
 
-
-## FLASH ESP-01 WITH ESPTOOL (Optional)
+# FLASHING ESP8266 (Optional)
+## FLASH ESP-01 WITH ESPTOOL
 
 FIRMWARE ESP-01 :
 1) AT  V1.6.2 from https://www.espressif.com/sites/default/files/ap/ESP8266_AT_Bin_V1.6.2_0.zip
@@ -74,6 +75,8 @@ blank.bin                   0x7e000 & 0xfe000
 ```
 
 
+# TROUBLESHOOT
+The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
 ```text
 AT
