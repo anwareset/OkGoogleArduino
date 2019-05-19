@@ -94,7 +94,7 @@ Then use Serial Monitor from Arduino IDE to interact with AT
 
 
 # FLASHING ESP8266 (Optional)
-Use this if your ESP8266 have old or deprecated firmware installed.
+Use this if your ESP8266 have old or deprecated firmware installed. Remember to use [PINOUT FLASHING ESP-01](#pinout-flashing-esp-01) for your jumper cable pinout in this step.
 ## FLASH ESP-01 WITH ESPTOOL
 
 FIRMWARE ESP-01 :
@@ -209,7 +209,7 @@ ESP is not responding.
 ```
 
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
-The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
+The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600. Remember to use this [PINOUT AT COMMAND MODE ESP-01](#pinout-at-command-mode-esp-01) for your jumper cable pinout to enter AT Command mode.
 ```text
 AT
 AT+UART_DEF=9600,8,1,0,0
