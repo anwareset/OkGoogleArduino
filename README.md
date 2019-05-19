@@ -144,8 +144,10 @@ Memory Address :
 8) Set the action
 ### URL
 ```text
-http://blynk-cloud.com/update/D7
+http://blynk-cloud.com/YourBlynkAuthToken/update/D7
 ```
+Replace <b>YourBlynkAuthToken</b> with your Auth Token that you get from [Setting Up Blynk](#setting-up-blynk) step.
+
 ### Method
 ```text
 PUT
@@ -201,9 +203,16 @@ This is the log from Serial Monitor if everything is running without any problem
 ```
 
 # TROUBLESHOOT
+Sometime you'll get error like this from Serial Monitor.
+```text
+ESP is not responding.
+```
+
 ## SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
 The default baud rate for ESP8266-01 is 115200. You maybe need to set it to 9600.
 ```text
 AT
 AT+UART_DEF=9600,8,1,0,0
 ```
+If you still get <b>ESP is not responding</b> log, then maybe you need to recheck your jumper cable [pinout](#pinout).
+And because some reason you need to upgrade your ESP8266 firmware, so you can follow this [FLASHING ESP8266](#flashing-esp8266-optional) step.
