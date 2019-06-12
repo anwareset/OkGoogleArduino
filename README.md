@@ -24,7 +24,7 @@ Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
 
 
-# REQUIREMENTS:
+# REQUIREMENTS
 * Android phone Marsmallow or higher or Apple phone (for Google Assistant)
 * IFTTT Account
 * Blynk App Account
