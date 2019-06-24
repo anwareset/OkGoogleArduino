@@ -164,8 +164,9 @@ and accept etc.
 That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
 
 ## Upload Code and Test
-1) Don't forget to import the [Blynk Library](https://github.com/blynkkk/blynk-library/releases/) to your Arduino IDE. You can follow [this instructions](http://help.blynk.cc/getting-started-library-auth-token-code-examples/how-to-install-blynk-library-for-arduino) for import the library to your Arduino IDE.
-Use <b>[OkGoogleArduino.ino](https://github.com/anwareset/OkGoogleArduino/blob/master/OkGoogleArduino.ino)</b> sketch code. Don't forget to edit it.
+Don't forget to import the [Blynk Library](https://github.com/blynkkk/blynk-library/releases/) to your Arduino IDE. You can follow [this instructions](http://help.blynk.cc/getting-started-library-auth-token-code-examples/how-to-install-blynk-library-for-arduino) for import the library to your Arduino IDE.
+Use <b>[OkGoogleArduino.ino](https://github.com/anwareset/OkGoogleArduino/blob/master/OkGoogleArduino.ino)</b> sketch code.
+Don't forget to edit this variable:
 ```text
 char auth[] = "8f180320xxxxxxxxxc458c50faa";
 char ssid[] = "iPhone 5S";
