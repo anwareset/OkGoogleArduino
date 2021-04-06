@@ -2,22 +2,6 @@
 Control your electronics with an Google Assistant + Arduino UNO + ESP8266
 
 
-
-## Contents
-- [REQUIREMENTS](#requirements)
-- [PINOUT](#pinout)
-  - [PINOUT FINAL](#pinout-final)
-  - [PINOUT FLASHING ESP-01](#pinout-flashing-esp-01)
-  - [PINOUT AT COMMAND MODE ESP-01](#pinout-at-command-mode-esp-01)
-- [FLASHING ESP8266 (Optional)](#flashing-esp8266-optional)
-  - [FLASH ESP-01 WITH ESPTOOL](#flash-esp-01-with-esptool)  
-- [INSTALLATION](#installation)
-  - [Setting up Blynk](#setting-up-blynk)
-  - [Setting up IFTTT](#setting-up-ifttt)
-  - [Upload Code and Test](#upload-code-and-test)
-- [TROUBLESHOOT](#troubleshoot)
-  - [SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)](#set-esp-01-baud-rate-to-9600-via-at-command-recommended)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/anwareset/OkGoogleArduino/master/1.JPG">
 </p>
